@@ -1,0 +1,125 @@
+2023-01-07 23:51:26.914 [info] Extension host agent started.
+2023-01-07 23:51:26.980 [info] [127.0.0.1][4b6cb15b][ManagementConnection] New connection established.
+2023-01-07 23:51:27.024 [info] [127.0.0.1][2e4c960e][ExtensionHostConnection] New connection established.
+2023-01-07 23:51:27.029 [info] [127.0.0.1][2e4c960e][ExtensionHostConnection] <825240> Launched Extension Host Process.
+2023-01-07 23:51:29.365 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-01-07 23:51:30.110 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-07 23:51:47.166 [info] [127.0.0.1][4b6cb15b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-07 23:51:47.181 [info] [127.0.0.1][2e4c960e][ExtensionHostConnection] <825240> Extension Host Process exited with code: 0, signal: null.
+2023-01-07 23:51:47.181 [info] Last EH closed, waiting before shutting down
+2023-01-07 23:52:08.191 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-07 23:52:08.191 [info] Cancelling previous shutdown timeout
+2023-01-07 23:52:08.302 [info] [127.0.0.1][d1a8ca87][ManagementConnection] New connection established.
+2023-01-07 23:52:08.323 [info] [127.0.0.1][bfa7ecc6][ExtensionHostConnection] New connection established.
+2023-01-07 23:52:08.329 [info] [127.0.0.1][bfa7ecc6][ExtensionHostConnection] <825409> Launched Extension Host Process.
+2023-01-07 23:52:15.284 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-07 23:57:08.193 [info] New EH opened, aborting shutdown
+2023-01-07 23:58:22.570 [info] [127.0.0.1][d1a8ca87][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-07 23:58:22.599 [info] [127.0.0.1][bfa7ecc6][ExtensionHostConnection] <825409> Extension Host Process exited with code: 0, signal: null.
+2023-01-07 23:58:22.599 [info] Last EH closed, waiting before shutting down
+2023-01-07 23:58:26.981 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-07 23:58:26.981 [info] Cancelling previous shutdown timeout
+2023-01-07 23:58:27.190 [info] [127.0.0.1][ed5d4081][ManagementConnection] New connection established.
+2023-01-07 23:58:27.205 [info] [127.0.0.1][2bc9f088][ExtensionHostConnection] New connection established.
+2023-01-07 23:58:27.210 [info] [127.0.0.1][2bc9f088][ExtensionHostConnection] <825948> Launched Extension Host Process.
+2023-01-07 23:58:34.479 [info] [127.0.0.1][ed5d4081][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-07 23:58:34.493 [info] [127.0.0.1][2bc9f088][ExtensionHostConnection] <825948> Extension Host Process exited with code: 0, signal: null.
+2023-01-07 23:58:34.494 [info] Cancelling previous shutdown timeout
+2023-01-07 23:58:34.494 [info] Last EH closed, waiting before shutting down
+2023-01-07 23:58:39.460 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-07 23:58:39.460 [info] Cancelling previous shutdown timeout
+2023-01-07 23:58:39.574 [info] [127.0.0.1][3c16f71e][ManagementConnection] New connection established.
+2023-01-07 23:58:39.597 [info] [127.0.0.1][b9c2e6c0][ExtensionHostConnection] New connection established.
+2023-01-07 23:58:39.604 [info] [127.0.0.1][b9c2e6c0][ExtensionHostConnection] <826079> Launched Extension Host Process.
+2023-01-07 23:58:42.412 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-08 00:03:39.461 [info] New EH opened, aborting shutdown
+2023-01-08 01:42:57.314 [info] [127.0.0.1][3c16f71e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-08 01:42:57.341 [info] [127.0.0.1][b9c2e6c0][ExtensionHostConnection] <826079> Extension Host Process exited with code: 0, signal: null.
+2023-01-08 01:42:57.341 [info] Last EH closed, waiting before shutting down
+2023-01-08 01:46:10.707 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-08 01:46:10.707 [info] Cancelling previous shutdown timeout
+2023-01-08 01:46:10.917 [info] [127.0.0.1][4d0d0380][ManagementConnection] New connection established.
+2023-01-08 01:46:10.931 [info] [127.0.0.1][70449890][ExtensionHostConnection] New connection established.
+2023-01-08 01:46:10.937 [info] [127.0.0.1][70449890][ExtensionHostConnection] <833553> Launched Extension Host Process.
+2023-01-08 01:46:14.476 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-08 01:46:54.425 [info] [127.0.0.1][4d0d0380][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-08 01:46:54.439 [info] [127.0.0.1][70449890][ExtensionHostConnection] <833553> Extension Host Process exited with code: 0, signal: null.
+2023-01-08 01:46:54.439 [info] Cancelling previous shutdown timeout
+2023-01-08 01:46:54.439 [info] Last EH closed, waiting before shutting down
+2023-01-08 01:46:59.340 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-08 01:46:59.340 [info] Cancelling previous shutdown timeout
+2023-01-08 01:46:59.448 [info] [127.0.0.1][fb81dcb9][ManagementConnection] New connection established.
+2023-01-08 01:46:59.481 [info] [127.0.0.1][d32875c8][ExtensionHostConnection] New connection established.
+2023-01-08 01:46:59.505 [info] [127.0.0.1][d32875c8][ExtensionHostConnection] <833744> Launched Extension Host Process.
+2023-01-08 01:47:02.390 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ikotelevets/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-08 01:51:59.340 [info] New EH opened, aborting shutdown
+2023-01-08 19:14:12.838 [info] [127.0.0.1][fb81dcb9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-08 19:14:12.867 [info] [127.0.0.1][d32875c8][ExtensionHostConnection] <833744> Extension Host Process exited with code: 0, signal: null.
+2023-01-08 19:14:12.867 [info] Last EH closed, waiting before shutting down
+2023-01-08 19:19:12.869 [info] Last EH closed, shutting down

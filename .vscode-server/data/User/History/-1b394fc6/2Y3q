@@ -1,0 +1,12 @@
+FROM node:latest
+
+COPY ./package.json .
+COPY . .
+
+RUN npm i
+
+ARG CACHEBUST=0
+
+EXPOSE 5000
+
+CMD ["npm","run","server"]

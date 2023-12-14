@@ -1,0 +1,9 @@
+FROM node:latest
+
+COPY . . DO
+
+RUN npm i
+
+EXPOSE 5000
+
+CMD ["npm","run","server"]

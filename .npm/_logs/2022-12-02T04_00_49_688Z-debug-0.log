@@ -1,0 +1,951 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.1.2
+2 info using node@v16.18.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/app/conf-app/DigOfJustice/client/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 6ms
+11 timing config:load:file:/home/ikotelevets/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 20ms
+17 timing npm:load:configload Completed in 20ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm i
+21 verbose argv "i"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 5ms
+24 timing npm:load:display Completed in 6ms
+25 verbose logfile logs-max:10 dir:/home/ikotelevets/.npm/_logs/2022-12-02T04_00_49_688Z-
+26 verbose logfile /home/ikotelevets/.npm/_logs/2022-12-02T04_00_49_688Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 38ms
+31 silly logfile start cleaning logs, removing 1 files
+32 timing config:load:flatten Completed in 1ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 291ms
+36 timing idealTree:userRequests Completed in 1ms
+37 silly idealTree buildDeps
+38 timing idealTree:#root Completed in 0ms
+39 timing idealTree:buildDeps Completed in 2ms
+40 timing idealTree:fixDepFlags Completed in 0ms
+41 timing idealTree Completed in 303ms
+42 timing reify:loadTrees Completed in 317ms
+43 timing reify:diffTrees Completed in 5ms
+44 silly reify moves {}
+45 timing reify:retireShallow Completed in 2ms
+46 timing reify:createSparse Completed in 45ms
+47 timing reify:loadBundles Completed in 0ms
+48 silly audit bulk request {
+48 silly audit   '@babel/runtime': [ '7.20.1' ],
+48 silly audit   '@babel/runtime-corejs3': [ '7.20.1' ],
+48 silly audit   '@emotion/is-prop-valid': [ '0.8.8' ],
+48 silly audit   '@emotion/memoize': [ '0.7.4' ],
+48 silly audit   '@eslint/eslintrc': [ '1.3.3' ],
+48 silly audit   '@humanwhocodes/config-array': [ '0.11.7' ],
+48 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+48 silly audit   '@humanwhocodes/object-schema': [ '1.2.1' ],
+48 silly audit   '@motionone/animation': [ '10.14.0' ],
+48 silly audit   '@motionone/dom': [ '10.13.1' ],
+48 silly audit   '@motionone/easing': [ '10.14.0' ],
+48 silly audit   '@motionone/generators': [ '10.14.0' ],
+48 silly audit   '@motionone/types': [ '10.14.0' ],
+48 silly audit   '@motionone/utils': [ '10.14.0' ],
+48 silly audit   '@next/env': [ '13.0.3' ],
+48 silly audit   '@next/eslint-plugin-next': [ '13.0.3' ],
+48 silly audit   '@next/swc-android-arm-eabi': [ '13.0.3' ],
+48 silly audit   '@next/swc-android-arm64': [ '13.0.3' ],
+48 silly audit   '@next/swc-darwin-arm64': [ '13.0.3' ],
+48 silly audit   '@next/swc-darwin-x64': [ '13.0.3' ],
+48 silly audit   '@next/swc-freebsd-x64': [ '13.0.3' ],
+48 silly audit   '@next/swc-linux-arm-gnueabihf': [ '13.0.3' ],
+48 silly audit   '@next/swc-linux-arm64-gnu': [ '13.0.3' ],
+48 silly audit   '@next/swc-linux-arm64-musl': [ '13.0.3' ],
+48 silly audit   '@next/swc-linux-x64-gnu': [ '13.0.3' ],
+48 silly audit   '@next/swc-linux-x64-musl': [ '13.0.3' ],
+48 silly audit   '@next/swc-win32-arm64-msvc': [ '13.0.3' ],
+48 silly audit   '@next/swc-win32-ia32-msvc': [ '13.0.3' ],
+48 silly audit   '@next/swc-win32-x64-msvc': [ '13.0.3' ],
+48 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+48 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+48 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+48 silly audit   '@rushstack/eslint-patch': [ '1.2.0' ],
+48 silly audit   '@swc/helpers': [ '0.4.11' ],
+48 silly audit   '@types/json5': [ '0.0.29' ],
+48 silly audit   '@types/node': [ '18.11.9' ],
+48 silly audit   '@types/prop-types': [ '15.7.5' ],
+48 silly audit   '@types/react': [ '18.0.25' ],
+48 silly audit   '@types/react-dom': [ '18.0.8' ],
+48 silly audit   '@types/scheduler': [ '0.16.2' ],
+48 silly audit   '@typescript-eslint/parser': [ '5.42.1' ],
+48 silly audit   '@typescript-eslint/scope-manager': [ '5.42.1' ],
+48 silly audit   '@typescript-eslint/types': [ '5.42.1' ],
+48 silly audit   '@typescript-eslint/typescript-estree': [ '5.42.1' ],
+48 silly audit   '@typescript-eslint/visitor-keys': [ '5.42.1' ],
+48 silly audit   acorn: [ '8.8.1' ],
+48 silly audit   'acorn-jsx': [ '5.3.2' ],
+48 silly audit   ajv: [ '6.12.6' ],
+48 silly audit   'ansi-regex': [ '5.0.1' ],
+48 silly audit   'ansi-styles': [ '4.3.0' ],
+48 silly audit   anymatch: [ '3.1.2' ],
+48 silly audit   argparse: [ '2.0.1' ],
+48 silly audit   'aria-query': [ '4.2.2' ],
+48 silly audit   'array-includes': [ '3.1.6' ],
+48 silly audit   'array-union': [ '2.1.0' ],
+48 silly audit   'array.prototype.flat': [ '1.3.1' ],
+48 silly audit   'array.prototype.flatmap': [ '1.3.1' ],
+48 silly audit   'ast-types-flow': [ '0.0.7' ],
+48 silly audit   'axe-core': [ '4.5.1' ],
+48 silly audit   'axobject-query': [ '2.2.0' ],
+48 silly audit   'balanced-match': [ '1.0.2' ],
+48 silly audit   'binary-extensions': [ '2.2.0' ],
+48 silly audit   'brace-expansion': [ '1.1.11' ],
+48 silly audit   braces: [ '3.0.2' ],
+48 silly audit   'call-bind': [ '1.0.2' ],
+48 silly audit   callsites: [ '3.1.0' ],
+48 silly audit   'caniuse-lite': [ '1.0.30001431' ],
+48 silly audit   chalk: [ '4.1.2' ],
+48 silly audit   chokidar: [ '3.5.3' ],
+48 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+48 silly audit   'client-only': [ '0.0.1' ],
+48 silly audit   'color-convert': [ '2.0.1' ],
+48 silly audit   'color-name': [ '1.1.4' ],
+48 silly audit   'concat-map': [ '0.0.1' ],
+48 silly audit   'core-js-pure': [ '3.26.0' ],
+48 silly audit   'cross-spawn': [ '7.0.3' ],
+48 silly audit   csstype: [ '3.1.1' ],
+48 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+48 silly audit   debug: [ '4.3.4', '3.2.7', '2.6.9' ],
+48 silly audit   'deep-is': [ '0.1.4' ],
+48 silly audit   'define-properties': [ '1.1.4' ],
+48 silly audit   'dir-glob': [ '3.0.1' ],
+48 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+48 silly audit   'emoji-regex': [ '9.2.2' ],
+48 silly audit   'es-abstract': [ '1.20.4' ],
+48 silly audit   'es-shim-unscopables': [ '1.0.0' ],
+48 silly audit   'es-to-primitive': [ '1.2.1' ],
+48 silly audit   'escape-string-regexp': [ '4.0.0' ],
+48 silly audit   eslint: [ '8.27.0' ],
+48 silly audit   'eslint-config-next': [ '13.0.3' ],
+48 silly audit   'eslint-import-resolver-node': [ '0.3.6' ],
+48 silly audit   'eslint-import-resolver-typescript': [ '2.7.1' ],
+48 silly audit   glob: [ '7.2.3', '7.1.7' ],
+48 silly audit   'eslint-module-utils': [ '2.7.4' ],
+48 silly audit   'eslint-plugin-import': [ '2.26.0' ],
+48 silly audit   ms: [ '2.0.0', '2.1.2' ],
+48 silly audit   'eslint-plugin-jsx-a11y': [ '6.6.1' ],
+48 silly audit   semver: [ '6.3.0', '7.3.8' ],
+48 silly audit   'eslint-plugin-react': [ '7.31.10' ],
+48 silly audit   'eslint-plugin-react-hooks': [ '4.6.0' ],
+48 silly audit   resolve: [ '2.0.0-next.4', '1.22.1' ],
+48 silly audit   'eslint-scope': [ '7.1.1' ],
+48 silly audit   'eslint-utils': [ '3.0.0' ],
+48 silly audit   'eslint-visitor-keys': [ '2.1.0', '3.3.0' ],
+48 silly audit   espree: [ '9.4.1' ],
+48 silly audit   esquery: [ '1.4.0' ],
+48 silly audit   esrecurse: [ '4.3.0' ],
+48 silly audit   estraverse: [ '5.3.0' ],
+48 silly audit   esutils: [ '2.0.3' ],
+48 silly audit   'fast-deep-equal': [ '3.1.3' ],
+48 silly audit   'fast-glob': [ '3.2.12' ],
+48 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+48 silly audit   'fast-levenshtein': [ '2.0.6' ],
+48 silly audit   fastq: [ '1.13.0' ],
+48 silly audit   'file-entry-cache': [ '6.0.1' ],
+48 silly audit   'fill-range': [ '7.0.1' ],
+48 silly audit   'find-up': [ '5.0.0' ],
+48 silly audit   'flat-cache': [ '3.0.4' ],
+48 silly audit   flatted: [ '3.2.7' ],
+48 silly audit   'framer-motion': [ '7.6.15' ],
+48 silly audit   tslib: [ '2.4.0', '2.4.1', '1.14.1' ],
+48 silly audit   framesync: [ '6.1.2' ],
+48 silly audit   'fs.realpath': [ '1.0.0' ],
+48 silly audit   fsevents: [ '2.3.2' ],
+48 silly audit   'function-bind': [ '1.1.1' ],
+48 silly audit   'function.prototype.name': [ '1.1.5' ],
+48 silly audit   'functions-have-names': [ '1.2.3' ],
+48 silly audit   'get-intrinsic': [ '1.1.3' ],
+48 silly audit   'get-symbol-description': [ '1.0.0' ],
+48 silly audit   globals: [ '13.17.0' ],
+48 silly audit   globby: [ '11.1.0' ],
+48 silly audit   'grapheme-splitter': [ '1.0.4' ],
+48 silly audit   has: [ '1.0.3' ],
+48 silly audit   'has-bigints': [ '1.0.2' ],
+48 silly audit   'has-flag': [ '4.0.0' ],
+48 silly audit   'has-property-descriptors': [ '1.0.0' ],
+48 silly audit   'has-symbols': [ '1.0.3' ],
+48 silly audit   'has-tostringtag': [ '1.0.0' ],
+48 silly audit   'hey-listen': [ '1.0.8' ],
+48 silly audit   ignore: [ '5.2.0' ],
+48 silly audit   immutable: [ '4.1.0' ],
+48 silly audit   'import-fresh': [ '3.3.0' ],
+48 silly audit   imurmurhash: [ '0.1.4' ],
+48 silly audit   inflight: [ '1.0.6' ],
+48 silly audit   inherits: [ '2.0.4' ],
+48 silly audit   'internal-slot': [ '1.0.3' ],
+48 silly audit   'is-bigint': [ '1.0.4' ],
+48 silly audit   'is-binary-path': [ '2.1.0' ],
+48 silly audit   'is-boolean-object': [ '1.1.2' ],
+48 silly audit   'is-callable': [ '1.2.7' ],
+48 silly audit   'is-core-module': [ '2.11.0' ],
+48 silly audit   'is-date-object': [ '1.0.5' ],
+48 silly audit   'is-extglob': [ '2.1.1' ],
+48 silly audit   'is-glob': [ '4.0.3' ],
+48 silly audit   'is-negative-zero': [ '2.0.2' ],
+48 silly audit   'is-number': [ '7.0.0' ],
+48 silly audit   'is-number-object': [ '1.0.7' ],
+48 silly audit   'is-path-inside': [ '3.0.3' ],
+48 silly audit   'is-regex': [ '1.1.4' ],
+48 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+48 silly audit   'is-string': [ '1.0.7' ],
+48 silly audit   'is-symbol': [ '1.0.4' ],
+48 silly audit   'is-weakref': [ '1.0.2' ],
+48 silly audit   isexe: [ '2.0.0' ],
+48 silly audit   'js-sdsl': [ '4.1.5' ],
+48 silly audit   'js-tokens': [ '4.0.0' ],
+48 silly audit   'js-yaml': [ '4.1.0' ],
+48 silly audit   'json-schema-traverse': [ '0.4.1' ],
+48 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+48 silly audit   json5: [ '1.0.1' ],
+48 silly audit   'jsx-ast-utils': [ '3.3.3' ],
+48 silly audit   'language-subtag-registry': [ '0.3.22' ],
+48 silly audit   'language-tags': [ '1.0.5' ],
+48 silly audit   levn: [ '0.4.1' ],
+48 silly audit   'locate-path': [ '6.0.0' ],
+48 silly audit   'lodash.merge': [ '4.6.2' ],
+48 silly audit   'loose-envify': [ '1.4.0' ],
+48 silly audit   'lru-cache': [ '6.0.0' ],
+48 silly audit   merge2: [ '1.4.1' ],
+48 silly audit   micromatch: [ '4.0.5' ],
+48 silly audit   minimatch: [ '3.1.2' ],
+48 silly audit   minimist: [ '1.2.7' ],
+48 silly audit   mobx: [ '6.6.2' ],
+48 silly audit   'mobx-react-lite': [ '3.4.0' ],
+48 silly audit   nanoid: [ '3.3.4' ],
+48 silly audit   'natural-compare': [ '1.4.0' ],
+48 silly audit   next: [ '13.0.3' ],
+48 silly audit   'normalize-path': [ '3.0.0' ],
+48 silly audit   'object-assign': [ '4.1.1' ],
+48 silly audit   'object-inspect': [ '1.12.2' ],
+48 silly audit   'object-keys': [ '1.1.1' ],
+48 silly audit   'object.assign': [ '4.1.4' ],
+48 silly audit   'object.entries': [ '1.1.6' ],
+48 silly audit   'object.fromentries': [ '2.0.6' ],
+48 silly audit   'object.hasown': [ '1.1.2' ],
+48 silly audit   'object.values': [ '1.1.6' ],
+48 silly audit   once: [ '1.4.0' ],
+48 silly audit   optionator: [ '0.9.1' ],
+48 silly audit   'p-limit': [ '3.1.0' ],
+48 silly audit   'p-locate': [ '5.0.0' ],
+48 silly audit   'parent-module': [ '1.0.1' ],
+48 silly audit   'path-exists': [ '4.0.0' ],
+48 silly audit   'path-is-absolute': [ '1.0.1' ],
+48 silly audit   'path-key': [ '3.1.1' ],
+48 silly audit   'path-parse': [ '1.0.7' ],
+48 silly audit   'path-type': [ '4.0.0' ],
+48 silly audit   picocolors: [ '1.0.0' ],
+48 silly audit   picomatch: [ '2.3.1' ],
+48 silly audit   popmotion: [ '11.0.5' ],
+48 silly audit   postcss: [ '8.4.14' ],
+48 silly audit   'prelude-ls': [ '1.2.1' ],
+48 silly audit   'prop-types': [ '15.8.1' ],
+48 silly audit   punycode: [ '2.1.1' ],
+48 silly audit   'queue-microtask': [ '1.2.3' ],
+48 silly audit   react: [ '18.2.0' ],
+48 silly audit   'react-dom': [ '18.2.0' ],
+48 silly audit   'react-icons': [ '4.6.0' ],
+48 silly audit   'react-is': [ '16.13.1' ],
+48 silly audit   readdirp: [ '3.6.0' ],
+48 silly audit   'regenerator-runtime': [ '0.13.10' ],
+48 silly audit   'regexp.prototype.flags': [ '1.4.3' ],
+48 silly audit   regexpp: [ '3.2.0' ],
+48 silly audit   'resolve-from': [ '4.0.0' ],
+48 silly audit   reusify: [ '1.0.4' ],
+48 silly audit   rimraf: [ '3.0.2' ],
+48 silly audit   'run-parallel': [ '1.2.0' ],
+48 silly audit   'safe-regex-test': [ '1.0.0' ],
+48 silly audit   sass: [ '1.56.1' ],
+48 silly audit   scheduler: [ '0.23.0' ],
+48 silly audit   'shebang-command': [ '2.0.0' ],
+48 silly audit   'shebang-regex': [ '3.0.0' ],
+48 silly audit   'side-channel': [ '1.0.4' ],
+48 silly audit   slash: [ '3.0.0' ],
+48 silly audit   'source-map-js': [ '1.0.2' ],
+48 silly audit   'string.prototype.matchall': [ '4.0.8' ],
+48 silly audit   'string.prototype.trimend': [ '1.0.6' ],
+48 silly audit   'string.prototype.trimstart': [ '1.0.6' ],
+48 silly audit   'strip-ansi': [ '6.0.1' ],
+48 silly audit   'strip-bom': [ '3.0.0' ],
+48 silly audit   'strip-json-comments': [ '3.1.1' ],
+48 silly audit   'style-value-types': [ '5.1.2' ],
+48 silly audit   'styled-jsx': [ '5.1.0' ],
+48 silly audit   'supports-color': [ '7.2.0' ],
+48 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+48 silly audit   'text-table': [ '0.2.0' ],
+48 silly audit   'to-regex-range': [ '5.0.1' ],
+48 silly audit   'tsconfig-paths': [ '3.14.1' ],
+48 silly audit   tsutils: [ '3.21.0' ],
+48 silly audit   'type-check': [ '0.4.0' ],
+48 silly audit   'type-fest': [ '0.20.2' ],
+48 silly audit   typescript: [ '4.8.4' ],
+48 silly audit   'unbox-primitive': [ '1.0.2' ],
+48 silly audit   'uri-js': [ '4.4.1' ],
+48 silly audit   'use-sync-external-store': [ '1.2.0' ],
+48 silly audit   which: [ '2.0.2' ],
+48 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+48 silly audit   'word-wrap': [ '1.2.3' ],
+48 silly audit   wrappy: [ '1.0.2' ],
+48 silly audit   yallist: [ '4.0.0' ],
+48 silly audit   'yocto-queue': [ '0.1.0' ]
+48 silly audit }
+49 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/fsevents
+50 silly reify mark deleted [ '/app/conf-app/DigOfJustice/client/node_modules/fsevents' ]
+51 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-x64-msvc
+52 silly reify mark deleted [
+52 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-x64-msvc'
+52 silly reify ]
+53 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-ia32-msvc
+54 silly reify mark deleted [
+54 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-ia32-msvc'
+54 silly reify ]
+55 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-arm64-msvc
+56 silly reify mark deleted [
+56 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-win32-arm64-msvc'
+56 silly reify ]
+57 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm64-musl
+58 silly reify mark deleted [
+58 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm64-musl'
+58 silly reify ]
+59 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm64-gnu
+60 silly reify mark deleted [
+60 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm64-gnu'
+60 silly reify ]
+61 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm-gnueabihf
+62 silly reify mark deleted [
+62 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-linux-arm-gnueabihf'
+62 silly reify ]
+63 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-freebsd-x64
+64 silly reify mark deleted [
+64 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-freebsd-x64'
+64 silly reify ]
+65 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-darwin-x64
+66 silly reify mark deleted [
+66 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-darwin-x64'
+66 silly reify ]
+67 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-darwin-arm64
+68 silly reify mark deleted [
+68 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-darwin-arm64'
+68 silly reify ]
+69 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-android-arm64
+70 silly reify mark deleted [
+70 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-android-arm64'
+70 silly reify ]
+71 verbose reify failed optional dependency /app/conf-app/DigOfJustice/client/node_modules/@next/swc-android-arm-eabi
+72 silly reify mark deleted [
+72 silly reify   '/app/conf-app/DigOfJustice/client/node_modules/@next/swc-android-arm-eabi'
+72 silly reify ]
+73 timing reifyNode:node_modules/fsevents Completed in 121ms
+74 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 110ms
+75 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 110ms
+76 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 110ms
+77 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 110ms
+78 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 110ms
+79 timing reifyNode:node_modules/@next/swc-linux-arm-gnueabihf Completed in 110ms
+80 timing reifyNode:node_modules/@next/swc-freebsd-x64 Completed in 110ms
+81 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 110ms
+82 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 111ms
+83 timing reifyNode:node_modules/@next/swc-android-arm64 Completed in 111ms
+84 timing reifyNode:node_modules/@next/swc-android-arm-eabi Completed in 110ms
+85 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 3221ms
+86 timing auditReport:getReport Completed in 3232ms
+87 silly audit report {}
+88 timing auditReport:init Completed in 0ms
+89 timing reify:audit Completed in 3232ms
+90 timing reifyNode:node_modules/natural-compare Completed in 3384ms
+91 timing reifyNode:node_modules/client-only Completed in 3385ms
+92 timing reifyNode:node_modules/wrappy Completed in 3425ms
+93 timing reifyNode:node_modules/strip-bom Completed in 3425ms
+94 timing reifyNode:node_modules/shebang-command Completed in 3425ms
+95 timing reifyNode:node_modules/run-parallel Completed in 3425ms
+96 timing reifyNode:node_modules/resolve-from Completed in 3426ms
+97 timing reifyNode:node_modules/path-parse Completed in 3426ms
+98 timing reifyNode:node_modules/path-is-absolute Completed in 3426ms
+99 timing reifyNode:node_modules/parent-module Completed in 3426ms
+100 timing reifyNode:node_modules/once Completed in 3427ms
+101 timing reifyNode:node_modules/normalize-path Completed in 3426ms
+102 timing reifyNode:node_modules/object-assign Completed in 3426ms
+103 timing reifyNode:node_modules/ms Completed in 3427ms
+104 timing reifyNode:node_modules/merge2 Completed in 3426ms
+105 timing reifyNode:node_modules/is-number Completed in 3429ms
+106 timing reifyNode:node_modules/is-extglob Completed in 3430ms
+107 timing reifyNode:node_modules/imurmurhash Completed in 3429ms
+108 timing reifyNode:node_modules/inflight Completed in 3430ms
+109 timing reifyNode:node_modules/glob-parent Completed in 3430ms
+110 timing reifyNode:node_modules/fast-levenshtein Completed in 3430ms
+111 timing reifyNode:node_modules/eslint-import-resolver-node Completed in 3428ms
+112 timing reifyNode:node_modules/eslint-config-next Completed in 3428ms
+113 timing reifyNode:node_modules/dir-glob Completed in 3429ms
+114 timing reifyNode:node_modules/color-name Completed in 3430ms
+115 timing reifyNode:node_modules/brace-expansion Completed in 3430ms
+116 timing reifyNode:node_modules/@types/prop-types Completed in 3431ms
+117 timing reifyNode:node_modules/@types/json5 Completed in 3431ms
+118 timing reifyNode:node_modules/eslint-plugin-import/node_modules/ms Completed in 3442ms
+119 timing reifyNode:node_modules/word-wrap Completed in 3466ms
+120 timing reifyNode:node_modules/yocto-queue Completed in 3467ms
+121 timing reifyNode:node_modules/to-regex-range Completed in 3465ms
+122 timing reifyNode:node_modules/supports-color Completed in 3466ms
+123 timing reifyNode:node_modules/strip-json-comments Completed in 3466ms
+124 timing reifyNode:node_modules/strip-ansi Completed in 3466ms
+125 timing reifyNode:node_modules/slash Completed in 3465ms
+126 timing reifyNode:node_modules/shebang-regex Completed in 3466ms
+127 timing reifyNode:node_modules/queue-microtask Completed in 3466ms
+128 timing reifyNode:node_modules/path-type Completed in 3467ms
+129 timing reifyNode:node_modules/path-key Completed in 3466ms
+130 timing reifyNode:node_modules/path-exists Completed in 3467ms
+131 timing reifyNode:node_modules/p-locate Completed in 3467ms
+132 timing reifyNode:node_modules/p-limit Completed in 3467ms
+133 timing reifyNode:node_modules/lru-cache Completed in 3467ms
+134 timing reifyNode:node_modules/locate-path Completed in 3467ms
+135 timing reifyNode:node_modules/is-path-inside Completed in 3467ms
+136 timing reifyNode:node_modules/is-glob Completed in 3468ms
+137 timing reifyNode:node_modules/is-binary-path Completed in 3467ms
+138 timing reifyNode:node_modules/inherits Completed in 3468ms
+139 timing reifyNode:node_modules/import-fresh Completed in 3467ms
+140 timing reifyNode:node_modules/has-flag Completed in 3468ms
+141 timing reifyNode:node_modules/find-up Completed in 3468ms
+142 timing reifyNode:node_modules/fill-range Completed in 3468ms
+143 timing reifyNode:node_modules/escape-string-regexp Completed in 3466ms
+144 timing reifyNode:node_modules/callsites Completed in 3466ms
+145 timing reifyNode:node_modules/array-union Completed in 3468ms
+146 timing reifyNode:node_modules/anymatch Completed in 3469ms
+147 timing reifyNode:node_modules/ansi-regex Completed in 3469ms
+148 timing reifyNode:node_modules/@types/scheduler Completed in 3470ms
+149 timing reifyNode:node_modules/fast-glob/node_modules/glob-parent Completed in 3485ms
+150 timing reifyNode:node_modules/chokidar/node_modules/glob-parent Completed in 3478ms
+151 timing reifyNode:node_modules/yallist Completed in 3506ms
+152 timing reifyNode:node_modules/micromatch Completed in 3503ms
+153 timing reifyNode:node_modules/js-tokens Completed in 3503ms
+154 timing reifyNode:node_modules/fs.realpath Completed in 3503ms
+155 timing reifyNode:node_modules/esrecurse Completed in 3502ms
+156 timing reifyNode:node_modules/balanced-match Completed in 3501ms
+157 timing reifyNode:node_modules/ansi-styles Completed in 3501ms
+158 timing reifyNode:node_modules/@next/env Completed in 3499ms
+159 timing reifyNode:node_modules/which Completed in 3534ms
+160 timing reifyNode:node_modules/regenerator-runtime Completed in 3532ms
+161 timing reifyNode:node_modules/readdirp Completed in 3532ms
+162 timing reifyNode:node_modules/picocolors Completed in 3533ms
+163 timing reifyNode:node_modules/minimatch Completed in 3531ms
+164 timing reifyNode:node_modules/has Completed in 3529ms
+165 timing reifyNode:node_modules/file-entry-cache Completed in 3529ms
+166 timing reifyNode:node_modules/binary-extensions Completed in 3527ms
+167 timing reifyNode:node_modules/type-check Completed in 3563ms
+168 timing reifyNode:node_modules/rimraf Completed in 3562ms
+169 timing reifyNode:node_modules/punycode Completed in 3562ms
+170 timing reifyNode:node_modules/loose-envify Completed in 3561ms
+171 timing reifyNode:node_modules/lodash.merge Completed in 3561ms
+172 timing reifyNode:node_modules/acorn-jsx Completed in 3555ms
+173 timing reifyNode:node_modules/levn Completed in 3589ms
+174 timing reifyNode:node_modules/globby Completed in 3587ms
+175 timing reifyNode:node_modules/damerau-levenshtein Completed in 3585ms
+176 timing reifyNode:node_modules/debug Completed in 3585ms
+177 timing reifyNode:node_modules/concat-map Completed in 3585ms
+178 timing reifyNode:node_modules/color-convert Completed in 3586ms
+179 timing reifyNode:node_modules/@humanwhocodes/config-array Completed in 3585ms
+180 timing reifyNode:node_modules/eslint-utils/node_modules/eslint-visitor-keys Completed in 3601ms
+181 timing reifyNode:node_modules/safe-regex-test Completed in 3621ms
+182 timing reifyNode:node_modules/isexe Completed in 3618ms
+183 timing reifyNode:node_modules/globals Completed in 3617ms
+184 timing reifyNode:node_modules/estraverse Completed in 3617ms
+185 timing reifyNode:node_modules/define-properties Completed in 3615ms
+186 timing reifyNode:node_modules/reusify Completed in 3645ms
+187 timing reifyNode:node_modules/react-is Completed in 3645ms
+188 timing reifyNode:node_modules/optionator Completed in 3644ms
+189 timing reifyNode:node_modules/has-property-descriptors Completed in 3640ms
+190 timing reifyNode:node_modules/has-bigints Completed in 3640ms
+191 timing reifyNode:node_modules/flat-cache Completed in 3640ms
+192 timing reifyNode:node_modules/deep-is Completed in 3636ms
+193 timing reifyNode:node_modules/chalk Completed in 3635ms
+194 timing reifyNode:node_modules/eslint-import-resolver-typescript/node_modules/glob Completed in 3652ms
+195 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 3675ms
+196 timing reifyNode:node_modules/is-weakref Completed in 3670ms
+197 timing reifyNode:node_modules/is-core-module Completed in 3669ms
+198 timing reifyNode:node_modules/ignore Completed in 3669ms
+199 timing reifyNode:node_modules/glob Completed in 3669ms
+200 timing reifyNode:node_modules/cross-spawn Completed in 3664ms
+201 timing reifyNode:node_modules/ast-types-flow Completed in 3663ms
+202 timing reifyNode:node_modules/json-schema-traverse Completed in 3694ms
+203 timing reifyNode:node_modules/is-regex Completed in 3694ms
+204 timing reifyNode:node_modules/@types/react-dom Completed in 3686ms
+205 timing reifyNode:node_modules/eslint-plugin-react/node_modules/semver Completed in 3697ms
+206 timing reifyNode:node_modules/eslint-plugin-jsx-a11y/node_modules/semver Completed in 3696ms
+207 timing reifyNode:node_modules/eslint-module-utils/node_modules/debug Completed in 3696ms
+208 timing reifyNode:node_modules/eslint-import-resolver-node/node_modules/debug Completed in 3696ms
+209 timing reifyNode:node_modules/unbox-primitive Completed in 3719ms
+210 timing reifyNode:node_modules/side-channel Completed in 3718ms
+211 timing reifyNode:node_modules/is-string Completed in 3713ms
+212 timing reifyNode:node_modules/is-shared-array-buffer Completed in 3712ms
+213 timing reifyNode:node_modules/is-number-object Completed in 3713ms
+214 timing reifyNode:node_modules/is-bigint Completed in 3712ms
+215 timing reifyNode:node_modules/functions-have-names Completed in 3711ms
+216 timing reifyNode:node_modules/fast-deep-equal Completed in 3710ms
+217 timing reifyNode:node_modules/esutils Completed in 3710ms
+218 timing reifyNode:node_modules/eslint-visitor-keys Completed in 3710ms
+219 timing reifyNode:node_modules/es-shim-unscopables Completed in 3707ms
+220 timing reifyNode:node_modules/@humanwhocodes/module-importer Completed in 3706ms
+221 timing reifyNode:node_modules/which-boxed-primitive Completed in 3740ms
+222 timing reifyNode:node_modules/prelude-ls Completed in 3735ms
+223 timing reifyNode:node_modules/is-symbol Completed in 3733ms
+224 timing reifyNode:node_modules/is-negative-zero Completed in 3732ms
+225 timing reifyNode:node_modules/is-boolean-object Completed in 3731ms
+226 timing reifyNode:node_modules/is-date-object Completed in 3732ms
+227 timing reifyNode:node_modules/internal-slot Completed in 3732ms
+228 timing reifyNode:node_modules/get-intrinsic Completed in 3730ms
+229 timing reifyNode:node_modules/get-symbol-description Completed in 3730ms
+230 timing reifyNode:node_modules/function-bind Completed in 3730ms
+231 timing reifyNode:node_modules/eslint-plugin-react-hooks Completed in 3731ms
+232 timing reifyNode:node_modules/@rushstack/eslint-patch Completed in 3726ms
+233 timing reifyNode:node_modules/object-keys Completed in 3755ms
+234 timing reifyNode:node_modules/is-callable Completed in 3752ms
+235 timing reifyNode:node_modules/hey-listen Completed in 3751ms
+236 timing reifyNode:node_modules/eslint-import-resolver-typescript Completed in 3746ms
+237 timing reifyNode:node_modules/call-bind Completed in 3745ms
+238 timing reifyNode:node_modules/braces Completed in 3746ms
+239 timing reifyNode:node_modules/tsutils/node_modules/tslib Completed in 3774ms
+240 timing reifyNode:node_modules/object.fromentries Completed in 3771ms
+241 timing reifyNode:node_modules/has-tostringtag Completed in 3766ms
+242 timing reifyNode:node_modules/text-table Completed in 3790ms
+243 timing reifyNode:node_modules/string.prototype.trimstart Completed in 3790ms
+244 timing reifyNode:node_modules/string.prototype.trimend Completed in 3789ms
+245 timing reifyNode:node_modules/picomatch Completed in 3787ms
+246 timing reifyNode:node_modules/doctrine Completed in 3775ms
+247 timing reifyNode:node_modules/chokidar Completed in 3774ms
+248 timing reifyNode:node_modules/argparse Completed in 3773ms
+249 timing reifyNode:node_modules/@typescript-eslint/parser Completed in 3773ms
+250 timing reifyNode:node_modules/@emotion/memoize Completed in 3772ms
+251 timing reifyNode:node_modules/framer-motion/node_modules/tslib Completed in 3786ms
+252 timing reifyNode:node_modules/popmotion/node_modules/tslib Completed in 3797ms
+253 timing reifyNode:node_modules/style-value-types/node_modules/tslib Completed in 3802ms
+254 timing reifyNode:node_modules/framesync/node_modules/tslib Completed in 3787ms
+255 timing reifyNode:node_modules/eslint-plugin-import/node_modules/doctrine Completed in 3783ms
+256 timing reifyNode:node_modules/eslint-plugin-react/node_modules/doctrine Completed in 3784ms
+257 timing reifyNode:node_modules/tslib Completed in 3805ms
+258 timing reifyNode:node_modules/flatted Completed in 3793ms
+259 timing reifyNode:node_modules/espree Completed in 3792ms
+260 timing reifyNode:node_modules/array-includes Completed in 3787ms
+261 timing reifyNode:node_modules/array.prototype.flat Completed in 3787ms
+262 timing reifyNode:node_modules/@motionone/types Completed in 3785ms
+263 timing reifyNode:node_modules/prop-types Completed in 3813ms
+264 timing reifyNode:node_modules/object.hasown Completed in 3811ms
+265 timing reifyNode:node_modules/object.values Completed in 3811ms
+266 timing reifyNode:node_modules/object.entries Completed in 3812ms
+267 timing reifyNode:node_modules/language-tags Completed in 3811ms
+268 timing reifyNode:node_modules/json-stable-stringify-without-jsonify Completed in 3810ms
+269 timing reifyNode:node_modules/has-symbols Completed in 3807ms
+270 timing reifyNode:node_modules/regexp.prototype.flags Completed in 3824ms
+271 timing reifyNode:node_modules/fastq Completed in 3814ms
+272 timing reifyNode:node_modules/eslint-module-utils Completed in 3811ms
+273 timing reifyNode:node_modules/array.prototype.flatmap Completed in 3808ms
+274 timing reifyNode:node_modules/@typescript-eslint/visitor-keys Completed in 3808ms
+275 timing reifyNode:node_modules/fast-json-stable-stringify Completed in 3824ms
+276 timing reifyNode:node_modules/@types/react Completed in 3818ms
+277 timing reifyNode:node_modules/@humanwhocodes/object-schema Completed in 3817ms
+278 timing reifyNode:node_modules/string.prototype.matchall Completed in 3846ms
+279 timing reifyNode:node_modules/eslint-plugin-import/node_modules/debug Completed in 3828ms
+280 timing reifyNode:node_modules/json5 Completed in 3849ms
+281 timing reifyNode:node_modules/grapheme-splitter Completed in 3844ms
+282 timing reifyNode:node_modules/es-to-primitive Completed in 3839ms
+283 timing reifyNode:node_modules/@emotion/is-prop-valid Completed in 3841ms
+284 timing reifyNode:node_modules/use-sync-external-store Completed in 3874ms
+285 timing reifyNode:node_modules/function.prototype.name Completed in 3859ms
+286 timing reifyNode:node_modules/@nodelib/fs.stat Completed in 3849ms
+287 timing reifyNode:node_modules/regexpp Completed in 3890ms
+288 timing reifyNode:node_modules/emoji-regex Completed in 3875ms
+289 timing reifyNode:node_modules/eslint-scope Completed in 3888ms
+290 timing reifyNode:node_modules/@motionone/easing Completed in 3897ms
+291 timing reifyNode:node_modules/source-map-js Completed in 3937ms
+292 timing reifyNode:node_modules/scheduler Completed in 3936ms
+293 timing reifyNode:node_modules/minimist Completed in 3933ms
+294 timing reifyNode:node_modules/framesync Completed in 3932ms
+295 timing reifyNode:node_modules/eslint-utils Completed in 3930ms
+296 timing reifyNode:node_modules/nanoid Completed in 3947ms
+297 timing reifyNode:node_modules/@nodelib/fs.scandir Completed in 3932ms
+298 timing reifyNode:node_modules/@motionone/animation Completed in 3931ms
+299 timing reifyNode:node_modules/@nodelib/fs.walk Completed in 3975ms
+300 timing reifyNode:node_modules/@next/eslint-plugin-next Completed in 3997ms
+301 timing reifyNode:node_modules/react Completed in 4032ms
+302 timing reifyNode:node_modules/acorn Completed in 4013ms
+303 timing reifyNode:node_modules/object-inspect Completed in 4050ms
+304 timing reifyNode:node_modules/@typescript-eslint/types Completed in 4074ms
+305 timing reifyNode:node_modules/immutable Completed in 4091ms
+306 timing reifyNode:node_modules/type-fest Completed in 4117ms
+307 timing reifyNode:node_modules/semver Completed in 4149ms
+308 timing reifyNode:node_modules/style-value-types Completed in 4209ms
+309 timing reifyNode:node_modules/js-yaml Completed in 4216ms
+310 timing reifyNode:node_modules/postcss Completed in 4257ms
+311 timing reifyNode:node_modules/esquery Completed in 4266ms
+312 timing reifyNode:node_modules/csstype Completed in 4267ms
+313 timing reifyNode:node_modules/fast-glob Completed in 4290ms
+314 timing reifyNode:node_modules/@eslint/eslintrc Completed in 4310ms
+315 timing reifyNode:node_modules/uri-js Completed in 4342ms
+316 timing reifyNode:node_modules/styled-jsx Completed in 4355ms
+317 timing reifyNode:node_modules/@motionone/generators Completed in 4342ms
+318 timing reifyNode:node_modules/object.assign Completed in 4391ms
+319 timing reifyNode:node_modules/tsconfig-paths Completed in 4421ms
+320 timing reifyNode:node_modules/language-subtag-registry Completed in 4472ms
+321 timing reifyNode:node_modules/tsutils Completed in 4524ms
+322 timing reifyNode:node_modules/@motionone/utils Completed in 4510ms
+323 timing reifyNode:node_modules/axobject-query Completed in 4588ms
+324 timing reifyNode:node_modules/jsx-ast-utils Completed in 4604ms
+325 timing reifyNode:node_modules/axe-core Completed in 4674ms
+326 timing reifyNode:node_modules/aria-query Completed in 4737ms
+327 timing reifyNode:node_modules/ajv Completed in 4737ms
+328 timing reifyNode:node_modules/popmotion Completed in 4763ms
+329 timing reifyNode:node_modules/mobx-react-lite Completed in 4791ms
+330 timing reifyNode:node_modules/js-sdsl Completed in 4849ms
+331 timing reifyNode:node_modules/@swc/helpers Completed in 4835ms
+332 timing reifyNode:node_modules/@typescript-eslint/typescript-estree Completed in 4838ms
+333 timing reifyNode:node_modules/eslint-plugin-import Completed in 4848ms
+334 timing reifyNode:node_modules/@babel/runtime Completed in 4844ms
+335 timing reifyNode:node_modules/eslint-plugin-react Completed in 4855ms
+336 timing reifyNode:node_modules/resolve Completed in 4885ms
+337 timing reifyNode:node_modules/eslint-plugin-react/node_modules/resolve Completed in 4877ms
+338 timing reifyNode:node_modules/react-dom Completed in 5101ms
+339 timing reifyNode:node_modules/eslint-plugin-jsx-a11y Completed in 5104ms
+340 timing reifyNode:node_modules/sass Completed in 5122ms
+341 timing reifyNode:node_modules/@types/node Completed in 5232ms
+342 timing reifyNode:node_modules/mobx Completed in 5301ms
+343 timing reifyNode:node_modules/@motionone/dom Completed in 5403ms
+344 timing reifyNode:node_modules/framer-motion Completed in 5429ms
+345 timing reifyNode:node_modules/@babel/runtime-corejs3 Completed in 5484ms
+346 timing reifyNode:node_modules/@typescript-eslint/scope-manager Completed in 5526ms
+347 timing reifyNode:node_modules/eslint Completed in 5639ms
+348 timing reifyNode:node_modules/caniuse-lite Completed in 5887ms
+349 timing reifyNode:node_modules/es-abstract Completed in 6199ms
+350 timing reifyNode:node_modules/react-icons Completed in 7126ms
+351 timing reifyNode:node_modules/core-js-pure Completed in 7217ms
+352 timing reifyNode:node_modules/typescript Completed in 7709ms
+353 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 7802ms
+354 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 7810ms
+355 timing reifyNode:node_modules/next Completed in 8466ms
+356 timing reify:unpack Completed in 8477ms
+357 timing reify:unretire Completed in 1ms
+358 timing build:queue Completed in 18ms
+359 timing build:link:node_modules/acorn Completed in 11ms
+360 timing build:link:node_modules/eslint-plugin-jsx-a11y/node_modules/semver Completed in 8ms
+361 timing build:link:node_modules/eslint-plugin-react/node_modules/resolve Completed in 8ms
+362 timing build:link:node_modules/eslint Completed in 12ms
+363 timing build:link:node_modules/json5 Completed in 11ms
+364 timing build:link:node_modules/js-yaml Completed in 11ms
+365 timing build:link:node_modules/loose-envify Completed in 11ms
+366 timing build:link:node_modules/nanoid Completed in 11ms
+367 timing build:link:node_modules/next Completed in 11ms
+368 timing build:link:node_modules/rimraf Completed in 10ms
+369 timing build:link:node_modules/resolve Completed in 10ms
+370 timing build:link:node_modules/sass Completed in 10ms
+371 timing build:link:node_modules/semver Completed in 10ms
+372 timing build:link:node_modules/typescript Completed in 10ms
+373 timing build:link:node_modules/which Completed in 9ms
+374 timing build:link:node_modules/eslint-plugin-react/node_modules/semver Completed in 10ms
+375 timing build:link Completed in 14ms
+376 info run core-js-pure@3.26.0 postinstall node_modules/core-js-pure node -e "try{require('./postinstall')}catch(e){}"
+377 info run core-js-pure@3.26.0 postinstall { code: 0, signal: null }
+378 timing build:run:postinstall:node_modules/core-js-pure Completed in 107ms
+379 timing build:run:postinstall Completed in 107ms
+380 timing build:deps Completed in 139ms
+381 timing build Completed in 139ms
+382 timing reify:build Completed in 141ms
+383 timing reify:trash Completed in 2ms
+384 timing reify:save Completed in 116ms
+385 timing reify Completed in 9133ms
+386 silly ADD node_modules/yocto-queue
+387 silly ADD node_modules/yallist
+388 silly ADD node_modules/wrappy
+389 silly ADD node_modules/word-wrap
+390 silly ADD node_modules/which-boxed-primitive
+391 silly ADD node_modules/which
+392 silly ADD node_modules/use-sync-external-store
+393 silly ADD node_modules/uri-js
+394 silly ADD node_modules/unbox-primitive
+395 silly ADD node_modules/typescript
+396 silly ADD node_modules/type-fest
+397 silly ADD node_modules/type-check
+398 silly ADD node_modules/tsutils
+399 silly ADD node_modules/tsutils/node_modules/tslib
+400 silly ADD node_modules/tslib
+401 silly ADD node_modules/tsconfig-paths
+402 silly ADD node_modules/to-regex-range
+403 silly ADD node_modules/text-table
+404 silly ADD node_modules/supports-preserve-symlinks-flag
+405 silly ADD node_modules/supports-color
+406 silly ADD node_modules/styled-jsx
+407 silly ADD node_modules/style-value-types
+408 silly ADD node_modules/style-value-types/node_modules/tslib
+409 silly ADD node_modules/strip-json-comments
+410 silly ADD node_modules/strip-bom
+411 silly ADD node_modules/strip-ansi
+412 silly ADD node_modules/string.prototype.trimstart
+413 silly ADD node_modules/string.prototype.trimend
+414 silly ADD node_modules/string.prototype.matchall
+415 silly ADD node_modules/source-map-js
+416 silly ADD node_modules/slash
+417 silly ADD node_modules/side-channel
+418 silly ADD node_modules/shebang-regex
+419 silly ADD node_modules/shebang-command
+420 silly ADD node_modules/semver
+421 silly ADD node_modules/scheduler
+422 silly ADD node_modules/sass
+423 silly ADD node_modules/safe-regex-test
+424 silly ADD node_modules/run-parallel
+425 silly ADD node_modules/rimraf
+426 silly ADD node_modules/reusify
+427 silly ADD node_modules/resolve-from
+428 silly ADD node_modules/resolve
+429 silly ADD node_modules/regexpp
+430 silly ADD node_modules/regexp.prototype.flags
+431 silly ADD node_modules/regenerator-runtime
+432 silly ADD node_modules/readdirp
+433 silly ADD node_modules/react-is
+434 silly ADD node_modules/react-icons
+435 silly ADD node_modules/react-dom
+436 silly ADD node_modules/react
+437 silly ADD node_modules/queue-microtask
+438 silly ADD node_modules/punycode
+439 silly ADD node_modules/prop-types
+440 silly ADD node_modules/prelude-ls
+441 silly ADD node_modules/postcss
+442 silly ADD node_modules/popmotion
+443 silly ADD node_modules/popmotion/node_modules/tslib
+444 silly ADD node_modules/picomatch
+445 silly ADD node_modules/picocolors
+446 silly ADD node_modules/path-type
+447 silly ADD node_modules/path-parse
+448 silly ADD node_modules/path-key
+449 silly ADD node_modules/path-is-absolute
+450 silly ADD node_modules/path-exists
+451 silly ADD node_modules/parent-module
+452 silly ADD node_modules/p-locate
+453 silly ADD node_modules/p-limit
+454 silly ADD node_modules/optionator
+455 silly ADD node_modules/once
+456 silly ADD node_modules/object.values
+457 silly ADD node_modules/object.hasown
+458 silly ADD node_modules/object.fromentries
+459 silly ADD node_modules/object.entries
+460 silly ADD node_modules/object.assign
+461 silly ADD node_modules/object-keys
+462 silly ADD node_modules/object-inspect
+463 silly ADD node_modules/object-assign
+464 silly ADD node_modules/normalize-path
+465 silly ADD node_modules/next
+466 silly ADD node_modules/natural-compare
+467 silly ADD node_modules/nanoid
+468 silly ADD node_modules/ms
+469 silly ADD node_modules/mobx-react-lite
+470 silly ADD node_modules/mobx
+471 silly ADD node_modules/minimist
+472 silly ADD node_modules/minimatch
+473 silly ADD node_modules/micromatch
+474 silly ADD node_modules/merge2
+475 silly ADD node_modules/lru-cache
+476 silly ADD node_modules/loose-envify
+477 silly ADD node_modules/lodash.merge
+478 silly ADD node_modules/locate-path
+479 silly ADD node_modules/levn
+480 silly ADD node_modules/language-tags
+481 silly ADD node_modules/language-subtag-registry
+482 silly ADD node_modules/jsx-ast-utils
+483 silly ADD node_modules/json5
+484 silly ADD node_modules/json-stable-stringify-without-jsonify
+485 silly ADD node_modules/json-schema-traverse
+486 silly ADD node_modules/js-yaml
+487 silly ADD node_modules/js-tokens
+488 silly ADD node_modules/js-sdsl
+489 silly ADD node_modules/isexe
+490 silly ADD node_modules/is-weakref
+491 silly ADD node_modules/is-symbol
+492 silly ADD node_modules/is-string
+493 silly ADD node_modules/is-shared-array-buffer
+494 silly ADD node_modules/is-regex
+495 silly ADD node_modules/is-path-inside
+496 silly ADD node_modules/is-number-object
+497 silly ADD node_modules/is-number
+498 silly ADD node_modules/is-negative-zero
+499 silly ADD node_modules/is-glob
+500 silly ADD node_modules/is-extglob
+501 silly ADD node_modules/is-date-object
+502 silly ADD node_modules/is-core-module
+503 silly ADD node_modules/is-callable
+504 silly ADD node_modules/is-boolean-object
+505 silly ADD node_modules/is-binary-path
+506 silly ADD node_modules/is-bigint
+507 silly ADD node_modules/internal-slot
+508 silly ADD node_modules/inherits
+509 silly ADD node_modules/inflight
+510 silly ADD node_modules/imurmurhash
+511 silly ADD node_modules/import-fresh
+512 silly ADD node_modules/immutable
+513 silly ADD node_modules/ignore
+514 silly ADD node_modules/hey-listen
+515 silly ADD node_modules/has-tostringtag
+516 silly ADD node_modules/has-symbols
+517 silly ADD node_modules/has-property-descriptors
+518 silly ADD node_modules/has-flag
+519 silly ADD node_modules/has-bigints
+520 silly ADD node_modules/has
+521 silly ADD node_modules/grapheme-splitter
+522 silly ADD node_modules/globby
+523 silly ADD node_modules/globals
+524 silly ADD node_modules/glob-parent
+525 silly ADD node_modules/glob
+526 silly ADD node_modules/get-symbol-description
+527 silly ADD node_modules/get-intrinsic
+528 silly ADD node_modules/functions-have-names
+529 silly ADD node_modules/function.prototype.name
+530 silly ADD node_modules/function-bind
+531 silly ADD
+532 silly ADD node_modules/fs.realpath
+533 silly ADD node_modules/framesync
+534 silly ADD node_modules/framesync/node_modules/tslib
+535 silly ADD node_modules/framer-motion
+536 silly ADD node_modules/framer-motion/node_modules/tslib
+537 silly ADD node_modules/flatted
+538 silly ADD node_modules/flat-cache
+539 silly ADD node_modules/find-up
+540 silly ADD node_modules/fill-range
+541 silly ADD node_modules/file-entry-cache
+542 silly ADD node_modules/fastq
+543 silly ADD node_modules/fast-levenshtein
+544 silly ADD node_modules/fast-json-stable-stringify
+545 silly ADD node_modules/fast-glob
+546 silly ADD node_modules/fast-glob/node_modules/glob-parent
+547 silly ADD node_modules/fast-deep-equal
+548 silly ADD node_modules/esutils
+549 silly ADD node_modules/estraverse
+550 silly ADD node_modules/esrecurse
+551 silly ADD node_modules/esquery
+552 silly ADD node_modules/espree
+553 silly ADD node_modules/eslint-visitor-keys
+554 silly ADD node_modules/eslint-utils
+555 silly ADD node_modules/eslint-utils/node_modules/eslint-visitor-keys
+556 silly ADD node_modules/eslint-scope
+557 silly ADD node_modules/eslint-plugin-react-hooks
+558 silly ADD node_modules/eslint-plugin-react
+559 silly ADD node_modules/eslint-plugin-react/node_modules/semver
+560 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+561 silly ADD node_modules/eslint-plugin-react/node_modules/doctrine
+562 silly ADD node_modules/eslint-plugin-jsx-a11y
+563 silly ADD node_modules/eslint-plugin-jsx-a11y/node_modules/semver
+564 silly ADD node_modules/eslint-plugin-import
+565 silly ADD node_modules/eslint-plugin-import/node_modules/ms
+566 silly ADD node_modules/eslint-plugin-import/node_modules/doctrine
+567 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+568 silly ADD node_modules/eslint-module-utils
+569 silly ADD node_modules/eslint-module-utils/node_modules/debug
+570 silly ADD node_modules/eslint-import-resolver-typescript
+571 silly ADD node_modules/eslint-import-resolver-typescript/node_modules/glob
+572 silly ADD node_modules/eslint-import-resolver-node
+573 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+574 silly ADD node_modules/eslint-config-next
+575 silly ADD node_modules/eslint
+576 silly ADD node_modules/escape-string-regexp
+577 silly ADD node_modules/es-to-primitive
+578 silly ADD node_modules/es-shim-unscopables
+579 silly ADD node_modules/es-abstract
+580 silly ADD node_modules/emoji-regex
+581 silly ADD node_modules/doctrine
+582 silly ADD node_modules/dir-glob
+583 silly ADD node_modules/define-properties
+584 silly ADD node_modules/deep-is
+585 silly ADD node_modules/debug
+586 silly ADD node_modules/damerau-levenshtein
+587 silly ADD node_modules/csstype
+588 silly ADD node_modules/cross-spawn
+589 silly ADD node_modules/core-js-pure
+590 silly ADD node_modules/concat-map
+591 silly ADD node_modules/color-name
+592 silly ADD node_modules/color-convert
+593 silly ADD node_modules/client-only
+594 silly ADD node_modules/chokidar
+595 silly ADD node_modules/chokidar/node_modules/glob-parent
+596 silly ADD node_modules/chalk
+597 silly ADD node_modules/caniuse-lite
+598 silly ADD node_modules/callsites
+599 silly ADD node_modules/call-bind
+600 silly ADD node_modules/braces
+601 silly ADD node_modules/brace-expansion
+602 silly ADD node_modules/binary-extensions
+603 silly ADD node_modules/balanced-match
+604 silly ADD node_modules/axobject-query
+605 silly ADD node_modules/axe-core
+606 silly ADD node_modules/ast-types-flow
+607 silly ADD node_modules/array.prototype.flatmap
+608 silly ADD node_modules/array.prototype.flat
+609 silly ADD node_modules/array-union
+610 silly ADD node_modules/array-includes
+611 silly ADD node_modules/aria-query
+612 silly ADD node_modules/argparse
+613 silly ADD node_modules/anymatch
+614 silly ADD node_modules/ansi-styles
+615 silly ADD node_modules/ansi-regex
+616 silly ADD node_modules/ajv
+617 silly ADD node_modules/acorn-jsx
+618 silly ADD node_modules/acorn
+619 silly ADD node_modules/@typescript-eslint/visitor-keys
+620 silly ADD node_modules/@typescript-eslint/typescript-estree
+621 silly ADD node_modules/@typescript-eslint/types
+622 silly ADD node_modules/@typescript-eslint/scope-manager
+623 silly ADD node_modules/@typescript-eslint/parser
+624 silly ADD node_modules/@types/scheduler
+625 silly ADD node_modules/@types/react-dom
+626 silly ADD node_modules/@types/react
+627 silly ADD node_modules/@types/prop-types
+628 silly ADD node_modules/@types/node
+629 silly ADD node_modules/@types/json5
+630 silly ADD node_modules/@swc/helpers
+631 silly ADD node_modules/@rushstack/eslint-patch
+632 silly ADD node_modules/@nodelib/fs.walk
+633 silly ADD node_modules/@nodelib/fs.stat
+634 silly ADD node_modules/@nodelib/fs.scandir
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD node_modules/@next/swc-linux-x64-musl
+639 silly ADD node_modules/@next/swc-linux-x64-gnu
+640 silly ADD
+641 silly ADD
+642 silly ADD
+643 silly ADD
+644 silly ADD
+645 silly ADD
+646 silly ADD
+647 silly ADD
+648 silly ADD node_modules/@next/eslint-plugin-next
+649 silly ADD node_modules/@next/env
+650 silly ADD node_modules/@motionone/utils
+651 silly ADD node_modules/@motionone/types
+652 silly ADD node_modules/@motionone/generators
+653 silly ADD node_modules/@motionone/easing
+654 silly ADD node_modules/@motionone/dom
+655 silly ADD node_modules/@motionone/animation
+656 silly ADD node_modules/@humanwhocodes/object-schema
+657 silly ADD node_modules/@humanwhocodes/module-importer
+658 silly ADD node_modules/@humanwhocodes/config-array
+659 silly ADD node_modules/@eslint/eslintrc
+660 silly ADD node_modules/@emotion/memoize
+661 silly ADD node_modules/@emotion/is-prop-valid
+662 silly ADD node_modules/@babel/runtime-corejs3
+663 silly ADD node_modules/@babel/runtime
+664 timing command:i Completed in 9164ms
+665 verbose exit 0
+666 timing npm Completed in 9222ms
+667 info ok

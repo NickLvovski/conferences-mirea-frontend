@@ -1,0 +1,26 @@
+2023-01-07 03:07:21.625 [info] Log level: Info
+2023-01-07 03:07:21.625 [info] Validating found git in: "git"
+2023-01-07 03:07:21.625 [info] Using git "2.30.2" from "git"
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [6ms]
+2023-01-07 03:07:21.625 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-01-07 03:07:21.625 [info] Open repository: /app/DigOfJustice
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [10ms]
+2023-01-07 03:07:21.625 [info] > git fetch [27ms]
+2023-01-07 03:07:21.625 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-07 03:07:21.625 [info] > git config --get commit.template [20ms]
+2023-01-07 03:07:21.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [30ms]
+2023-01-07 03:07:21.625 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-07 03:07:21.625 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-07 03:07:21.625 [info] > git status -z -uall [46ms]
+2023-01-07 03:07:21.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-07 03:07:21.626 [info] > git config --get commit.template [7ms]
+2023-01-07 03:07:21.640 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2023-01-07 03:07:21.684 [info] > git status -z -uall [52ms]
+2023-01-07 03:07:22.093 [info] > git check-ignore -v -z --stdin [3ms]
+2023-01-07 03:07:24.305 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-07 03:16:00.996 [info] > git fetch [7ms]
+2023-01-07 03:16:00.996 [info] error: cannot open .git/FETCH_HEAD: Permission denied

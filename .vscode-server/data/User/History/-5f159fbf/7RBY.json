@@ -1,0 +1,49 @@
+{
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "blockman.n01LineHeight": 0,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.inlayHints.enabled": false,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": {
+    "*.rgd": "default"
+  },
+  "liveFrame.url": "http://localhost:3500/admin",
+  "bracketPairColorizer.depreciation-notice": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.tabSize": 2,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.maxColumn": 160,
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  "editor.fontWeight": "1000",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "editor.formatOnPaste": true,
+  "remote.SSH.remotePlatform": {
+    "192.168.0.110": "linux",
+    "10.90.192.15": "linux"
+  }
+}

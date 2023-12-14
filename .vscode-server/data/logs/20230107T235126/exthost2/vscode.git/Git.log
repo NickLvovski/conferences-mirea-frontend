@@ -1,0 +1,96 @@
+2023-01-07 23:52:11.273 [info] Log level: Info
+2023-01-07 23:52:11.273 [info] Validating found git in: "git"
+2023-01-07 23:52:11.273 [info] Using git "2.30.2" from "git"
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [53ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-07 23:52:11.273 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-01-07 23:52:11.273 [info] Open repository: /app/DigOfJustice
+2023-01-07 23:52:11.273 [info] > git fetch [10ms]
+2023-01-07 23:52:11.273 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 23:52:11.273 [info] > git config --get commit.template [7ms]
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [12ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [15ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2023-01-07 23:52:11.273 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-01-07 23:52:11.273 [info] Open repository: /app/parser_hackaton
+2023-01-07 23:52:11.273 [info] > git fetch [10ms]
+2023-01-07 23:52:11.273 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [6ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.273 [info] > git config --get commit.template [5ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-01-07 23:52:11.273 [info] > git status -z -uall [43ms]
+2023-01-07 23:52:11.273 [info] > git status -z -uall [15ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2023-01-07 23:52:11.273 [info] > git config --get commit.template [1ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-01-07 23:52:11.273 [info] > git config --get commit.template [17ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-01-07 23:52:11.273 [info] > git status -z -uall [8ms]
+2023-01-07 23:52:11.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2023-01-07 23:52:11.273 [info] > git status -z -uall [39ms]
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.273 [info] > git rev-parse --show-toplevel [40ms]
+2023-01-07 23:52:11.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:52:11.615 [info] > git check-ignore -v -z --stdin [5ms]
+2023-01-07 23:52:11.615 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-07 23:53:19.557 [info] > git config --get commit.template [5ms]
+2023-01-07 23:53:19.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-01-07 23:53:19.565 [info] > git status -z -uall [4ms]
+2023-01-07 23:53:19.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-07 23:53:21.999 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-07 23:53:24.582 [info] > git config --get commit.template [5ms]
+2023-01-07 23:53:24.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-01-07 23:53:24.590 [info] > git status -z -uall [4ms]
+2023-01-07 23:53:24.591 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-07 23:53:29.110 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-07 23:53:29.110 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:53:29.123 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-07 23:53:29.123 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:53:29.633 [info] > git check-ignore -v -z --stdin [5ms]
+2023-01-07 23:53:29.633 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-07 23:53:49.596 [info] > git checkout -q -- /app/DigOfJustice/client/.dockerignore [1ms]
+2023-01-07 23:53:49.596 [info] fatal: Unable to create '/app/DigOfJustice/.git/index.lock': Permission denied
+2023-01-07 23:54:10.150 [info] > git config --get commit.template [5ms]
+2023-01-07 23:54:10.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-01-07 23:54:10.158 [info] > git status -z -uall [4ms]
+2023-01-07 23:54:10.159 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-07 23:54:23.433 [info] > git checkout -q -- /app/DigOfJustice/client/.dockerignore [2ms]
+2023-01-07 23:54:23.433 [info] fatal: Unable to create '/app/DigOfJustice/.git/index.lock': Permission denied
+2023-01-07 23:54:57.865 [info] > git config --get commit.template [6ms]
+2023-01-07 23:54:57.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-01-07 23:54:57.874 [info] > git status -z -uall [4ms]
+2023-01-07 23:54:57.875 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-07 23:55:10.909 [info] > git fetch [4ms]
+2023-01-07 23:55:10.909 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 23:55:10.953 [info] > git fetch [2ms]
+2023-01-07 23:55:10.953 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 23:55:23.773 [info] > git checkout -q -- /app/DigOfJustice/client/.dockerignore [1ms]
+2023-01-07 23:55:23.773 [info] fatal: Unable to create '/app/DigOfJustice/.git/index.lock': Permission denied
+2023-01-07 23:55:57.864 [info] > git config --get commit.template [1ms]
+2023-01-07 23:55:57.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-01-07 23:55:57.878 [info] > git status -z -uall [4ms]
+2023-01-07 23:55:57.879 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-07 23:56:19.661 [info] > git rev-parse --show-toplevel [7ms]
+2023-01-07 23:56:19.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:56:20.888 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-07 23:56:20.888 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-07 23:56:57.874 [info] > git config --get commit.template [5ms]
+2023-01-07 23:56:57.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-01-07 23:56:57.883 [info] > git status -z -uall [4ms]
+2023-01-07 23:56:57.884 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-07 23:57:57.874 [info] > git config --get commit.template [5ms]
+2023-01-07 23:57:57.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-01-07 23:57:57.883 [info] > git status -z -uall [4ms]
+2023-01-07 23:57:57.884 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-07 23:58:10.918 [info] > git fetch [4ms]
+2023-01-07 23:58:10.918 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-07 23:58:10.961 [info] > git fetch [3ms]
+2023-01-07 23:58:10.961 [info] error: cannot open .git/FETCH_HEAD: Permission denied

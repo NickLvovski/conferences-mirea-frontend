@@ -1,0 +1,72 @@
+2023-01-10 06:31:48.298 [info] Log level: Info
+2023-01-10 06:31:48.298 [info] Validating found git in: "git"
+2023-01-10 06:31:48.299 [info] Using git "2.30.2" from "git"
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [52ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [0ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:31:48.299 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:31:48.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:38:24.724 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:38:24.729 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-01-10 06:38:24.740 [info] Open repository: /home/ikotelevets/DigOfJustice
+2023-01-10 06:38:24.752 [info] > git config --get commit.template [6ms]
+2023-01-10 06:38:24.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-01-10 06:38:24.761 [info] > git status -z -uall [4ms]
+2023-01-10 06:38:24.762 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-10 06:38:24.771 [info] > git config --get commit.template [1ms]
+2023-01-10 06:38:24.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-10 06:38:24.785 [info] > git status -z -uall [5ms]
+2023-01-10 06:38:24.786 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-01-10 06:38:25.292 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-10 06:49:10.429 [warning] ENOENT: no such file or directory, open '/home/ikotelevets/DigOfJustice/.git/HEAD'
+2023-01-10 06:49:10.433 [warning] ENOENT: no such file or directory, open '/home/ikotelevets/DigOfJustice/.git/config'
+2023-01-10 06:49:10.437 [info] > git fetch [14ms]
+2023-01-10 06:49:10.437 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:49:10.440 [info] > git config --get commit.template [4ms]
+2023-01-10 06:49:10.440 [info] > git remote --verbose [7ms]
+2023-01-10 06:49:10.440 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:49:10.441 [info] > git symbolic-ref --short HEAD [12ms]
+2023-01-10 06:49:10.441 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:49:10.445 [info] > git rev-parse HEAD [1ms]
+2023-01-10 06:49:10.445 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-10 06:49:24.087 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-10 06:49:24.091 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-01-10 06:49:24.096 [info] Open repository: /home/ikotelevets/DigOfJustice
+2023-01-10 06:49:24.105 [info] > git config --get commit.template [5ms]
+2023-01-10 06:49:24.105 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-10 06:49:24.113 [info] > git status -z -uall [4ms]
+2023-01-10 06:49:24.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-10 06:49:24.124 [info] > git config --get commit.template [4ms]
+2023-01-10 06:49:24.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-10 06:49:24.132 [info] > git status -z -uall [4ms]
+2023-01-10 06:49:24.133 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-10 06:49:24.654 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-10 07:08:00.857 [info] > git fetch [6ms]
+2023-01-10 07:08:00.857 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-10 07:08:00.858 [info] > git config --get commit.template [2ms]
+2023-01-10 07:08:00.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-10 07:08:00.872 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-10 07:08:00.901 [info] > git status -z -uall [34ms]
+2023-01-10 18:46:34.078 [info] > git fetch [7ms]
+2023-01-10 18:46:34.078 [info] error: cannot open .git/FETCH_HEAD: Permission denied
+2023-01-10 18:46:34.080 [info] > git config --get commit.template [3ms]
+2023-01-10 18:46:34.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-01-10 18:46:34.093 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-10 18:46:34.124 [info] > git status -z -uall [35ms]

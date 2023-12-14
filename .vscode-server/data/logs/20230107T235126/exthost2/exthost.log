@@ -1,0 +1,17 @@
+2023-01-07 23:52:09.431 [info] Extension host with pid 825409 started
+2023-01-07 23:52:09.446 [info] Lock '/home/ikotelevets/.vscode-server/data/User/workspaceStorage/07b8ccc4a0025eca21e25ca9c70a5bfe/vscode.lock': Lock acquired.
+2023-01-07 23:52:10.523 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-07 23:52:10.639 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-07 23:52:10.640 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-07 23:52:10.810 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 23:52:10.810 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 23:52:10.810 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 23:52:10.811 [info] Eager extensions activated
+2023-01-07 23:52:13.296 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-01-07 23:56:19.505 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 23:56:19.506 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 23:56:19.506 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 23:58:22.569 [info] Extension host terminating: received terminate message from renderer
+2023-01-07 23:58:22.569 [info] Lock '/home/ikotelevets/.vscode-server/data/User/workspaceStorage/07b8ccc4a0025eca21e25ca9c70a5bfe/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-07 23:58:22.589 [info] Extension host with pid 825409 exiting with code 0
